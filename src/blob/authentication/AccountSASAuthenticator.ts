@@ -293,8 +293,7 @@ export default class AccountSASAuthenticator implements IAuthenticator {
       permissions === undefined ||
       services === undefined ||
       resourceTypes === undefined ||
-      signature === undefined ||
-      encryptionScope === undefined
+      signature === undefined
     ) {
       return undefined;
     }
